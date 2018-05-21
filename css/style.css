@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#map {
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: -1;
+}
+
+#pano {
+    width: 350px;
+    height: 250px;
+}
+
+.list {
+    position: absolute;
+}
