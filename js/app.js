@@ -29,6 +29,10 @@ function initMap() {
 	ko.applyBindings(new ViewModel()); // initiates KnockoutJS for the ViewModel
 };
 
+function mapError() {
+	alert('Error: GoogleMaps not working');
+};
+
 /* Location Marker defines where to place markers based on locations in data.js file */
 var LocationMarker = function(data) {
 	var self = this;
@@ -53,6 +57,8 @@ var LocationMarker = function(data) {
 		var results = data.response.venues[0];
 		self.street = results.location.formattedAddress[0] ? results.location.formattedAddress[0] : 'N/A';
 		self.city = results.location.formattedAddress[1] ? results.location.formattedAddress[1] : 'N/A';
+	}).fail(function() {
+		alert('Error: Foursquare not working');
 	});
 
 	// creates a marker at the position indicated by the location's coordinates
@@ -152,7 +158,8 @@ function populateInfoWindow(marker, street, city, infowindow) {
 				var panoramaOptions = {
 					position: nearStreetViewLocation,
 					pov: {
-						heading: heading
+						heading: heading,
+						pitch: 0
 					}
 				};
 				var panorama = new google.maps.StreetViewPanorama(document.getElementById('pano'), panoramaOptions); // 
@@ -182,6 +189,7 @@ function toggleBounce(marker) {
 // Creates the marker images
 function makeIcon() {
 	var image = {
+		url: 'http://chart.googleapis.com/chart?chst=d_map_spin&chld=1.15|0|D65555|40|_|%E2%80%A2',
 		size: new google.maps.Size(21, 34),
 		origin: new google.maps.Point(0, 0),
 		anchor: new google.maps.Point(10, 34),
