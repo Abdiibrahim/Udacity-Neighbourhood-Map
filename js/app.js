@@ -16,9 +16,6 @@ function initMap() {
 		zoom : 13,
 		center: hamilton,
 		mapTypeControl: true,
-		mapTypeControlOptions: {
-			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-		  },
 		fullscreenControl: false,
 		mapTypeControlOptions: false
 	});
@@ -27,11 +24,11 @@ function initMap() {
 	bounds = new google.maps.LatLngBounds();
 
 	ko.applyBindings(new ViewModel()); // initiates KnockoutJS for the ViewModel
-};
+}
 
 function mapError() {
 	alert('Error: GoogleMaps not working');
-};
+}
 
 /* Location Marker defines where to place markers based on locations in data.js file */
 var LocationMarker = function(data) {
@@ -172,7 +169,7 @@ function populateInfoWindow(marker, street, city, infowindow) {
 		streetViewService.getPanoramaByLocation(marker.position, radius, getStreetView); // gets the panorama
 		infowindow.open(map, marker); // opens the info-window on the map
 	}
-};
+}
 
 // Sets the animation for the markers
 function toggleBounce(marker) {
@@ -184,7 +181,7 @@ function toggleBounce(marker) {
 			marker.setAnimation(null);
 		}, 1400);
 	}
-};
+}
 
 // Creates the marker images
 function makeIcon() {
@@ -196,4 +193,4 @@ function makeIcon() {
 		scaledSize: new google.maps.Size(21, 34)
 	};
 	return image;
-};
+}

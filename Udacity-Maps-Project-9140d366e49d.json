@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "udacity-maps-project-202621",
+  "private_key_id": "9140d366e49d18a8fe4c6b2ba73f1b6c4a799175",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDXe93PrcxN2TcK\nPvm7eP76at567Vu2fsMM9Nfe0zWT/ylqq/yyQUEDoe5iBKfnK1kdT7RcguUXnZkZ\nzLfbLHkPW0cyUvJYDxN1qDTQu791Bhgdna3mO7ogZNh6FMf0J0dvvSYmJiqhVTCp\n8wxMM0P41HF+eUnrcz1iseC28fvE/J0thxLQoTTiChZlh313a028n/3RdsgqwnRM\naWOL34jygbwvsC7RPCeE+2grYAiLpScp9VkX+0wHkEb3kj4ioTbIpEjGxht0AgTq\nxRx6hFDtp1HPQdHs3y2FqLQzdVdEs/KzvKk4GCz7q2EEZObPI8/9iYdU+dyo/rAG\nDMGY53ODAgMBAAECggEAQ3MQUUuToeKWKezgeuA63+PH1C6sAInZQBr731G5eaPr\nMOq45IsscJilZ6URcXjOIjCqwjJux1+bZsn/2ukm07m8pXH1Tb8aVj/amGPMYDMS\nJWMP5ftYHX+zizMqC7Cn2cAZSuOzgGCMJQZhGREK+75z8CTDEKI32sbXEizYpCXj\nNZuDUr0eOUxZxRMJZdWqZqmj/E4xeNYJG6WBXzUreQEA7gwEoktffd5KEGLqkv+q\n6U377KKJDbuWBmWwsmMg/gEw3lEyI4bO1Sc4aQbbnVAdygE+teinRfsMbrwsC7dK\nnssuvCmqKJF1/r4D2fmWNo56pjOvMHeYxyGBL5bMsQKBgQD5pCOYJFCnJdsFK4ba\nD/8TnfhGyY+oEDShG25/9lAGOimXplYwSk4qhEHVZSYX3K6sjxiBnUGrGEhAibJ5\nhJRZqL0xiPCN7US16Y83qieycHkTcl6a/LctX4nsQXZvZ/CcSYcweSXe5jaFkP3/\n6VbfKDLx+0N7HCj9xsWTeY47hwKBgQDc+P6I/wWXUGFx/4O2/E/yL2B5oitjzbAR\nnd3Zd5QelYvOym6AbrhBUuqK+pPBCeJDe/pNbQRiKRo0Rz3l6UCpGMmHaVYPDWEO\nqXsCb8gB/ySrtG3mgdjqxsZF1siJRVKe1/RCxMglX5z1Z7iiQwC6OOOovBhNFQx9\nYDhGpKCfJQKBgEqaO6zexV9+F5rO7CjEeQTiw2xcFdsypJe0u+vvrvB9dyqDoeQi\ngIOCLK5Z4O1mnKiixr8NQK+hvQ3UWIqqDS9SFt/zvXecfVkjqBIJfn170SL3ncAR\nX6hmkbARzBP06tm5u3XH7oJTJ934e397uuNLfxYDcaIbw0A7o5Wz0MaHAoGBAMam\n3gUA5uDaNVBLufi2KZT6/Is8vC80CbY8quXG95TrMk3MdLznTKQFS693h39CSHQM\nr8ANYqRweQtIhJ/9KtEZ5IrkqqZLi9anjFtrbG5HFot6YFaaowyleDfu2Ed318fP\nMtsXlyrqIuwHu9e7zpqbbCcUOfCKHLlV2CHB/Fg1AoGAFLJ+plodKBoYFEnR2urM\n1xUQn7XXShh+zlCBKR2GicGPWp8lP110n4Z/g8WwARkIe1mQL+oFadrnhbHVI8ee\nI0iKuWhTkr1qmkpgdaW174A+49zwryw3U2ZGUlDLLnFPTkezbb+E0Hb/TIlxASJf\nEkTjQuWUeSgN3DzBHkBvn3c=\n-----END PRIVATE KEY-----\n",
+  "client_email": "maps-api-udacity-course@udacity-maps-project-202621.iam.gserviceaccount.com",
+  "client_id": "112726654698661793237",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/maps-api-udacity-course%40udacity-maps-project-202621.iam.gserviceaccount.com"
+}
